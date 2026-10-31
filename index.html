@@ -1,0 +1,2219 @@
+<!doctype html>
+<html lang="en">
+<head><script type="application/json" data-od-external-dependencies>["https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"]</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conceptual Gurukul — CBSE Maths &amp; Science tuition, West Mambalam, Chennai</title>
+<meta name="description" content="Conceptual Gurukul teaches CBSE Maths and Science for classes 9 and 10, and CBSE Maths for classes 11 and 12, concept-first, with educational counselling and career guidance in West Mambalam, Chennai.">
+<meta name="theme-color" content="#0a0b0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0b0e'/%3E%3Cpath d='M16 44c6-1 9-6 12-14s7-13 20-14' fill='none' stroke='%237aa7ff' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='46' cy='16' r='4' fill='%23f7f7f5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style data-od-inline-asset="styles.css">/* OD-LAYOUT-PRIMITIVES v1 — structure only: display, flex/grid, overflow, wrapping, ratio, geometry.
+   Put this @layer first; product CSS outside the layer wins ordinary layout rules.
+   Native hidden and closed-dialog states take precedence over component display rules. */
+@layer od-layout {
+  [hidden]:not([hidden="until-found" i]) { display: none !important; }
+  dialog:not([open]) { display: none !important; }
+
+  :where(.od-stack,.od-row,.od-row-top,.od-cluster,.od-grid,.od-field,.od-stat,.od-cell,.od-tile) > :where(*) { min-width: 0; }
+
+  /* containers */
+  .od-stack   { display: flex; flex-direction: column; gap: var(--od-gap, 8px); }
+  .od-row     { display: flex; align-items: center; gap: var(--od-gap, 8px); }
+  .od-row-top { display: flex; align-items: flex-start; gap: var(--od-gap, 8px); }
+  .od-cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--od-gap, 8px); }
+  .od-fill    { flex: 1 1 0; min-width: 0; }
+  .od-fixed   { flex: none; }
+  .od-grid    { display: grid; gap: var(--od-gap, 12px); grid-template-columns: repeat(var(--od-cols, 3), minmax(0, 1fr)); }
+
+  /* stacked information: each piece is its own line — never sibling inline spans */
+  .od-stat, .od-field, .od-cell { display: grid; gap: var(--od-gap, 2px); }
+  :where(.od-stat,.od-field,.od-cell) > :where(*) { display: block; }
+  .od-tile { display: grid; grid-template-rows: auto 1fr; }
+  :where(.od-tile) > :where(*) { display: block; }
+
+  /* media keeps its intrinsic ratio by default; never a distorted or cropped
+     cover by accident. height:auto lets the ratio win over an <img height="…">
+     attribute. Cropping to a uniform box is an explicit opt-in: set --od-ratio
+     AND add .od-media-cover together (per the core rule, only where a crop is
+     deliberate — tile thumbs, decorative fills — never on full-frame content). */
+  .od-media { display: block; width: 100%; height: auto; aspect-ratio: var(--od-ratio, auto); }
+  .od-media-cover { object-fit: cover; }
+
+  /* functional inline SVG icons opt into bounded geometry; content SVGs keep their own */
+  .od-icon { display: inline-block; inline-size: var(--od-icon-size, 1em); block-size: var(--od-icon-size, 1em); flex: none; }
+
+  /* data text only — authored copy is rewritten to its budget instead */
+  .od-truncate { display: block; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .od-clamp-2, .od-clamp-3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+  .od-clamp-2 { -webkit-line-clamp: 2; }
+  .od-clamp-3 { -webkit-line-clamp: 3; }
+  .od-lines-2 { min-height: calc(2 * 1.4em); }   /* block-level reservation for a shared baseline */
+  .od-nowrap  { white-space: nowrap; }           /* 数字+单位 · 价格+起 · 日期+星期 */
+  .od-keep    { word-break: keep-all; overflow-wrap: anywhere; } /* CJK labels break at spaces / <wbr> first */
+
+  /* screen skeleton (optional): bars take their own space, the middle scrolls — no padding guessed for chrome */
+  .od-screen { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; height: 100%; }
+  .od-scroll { overflow-y: auto; overscroll-behavior: contain; min-height: 0; }
+
+  /* horizontal rail: the next item peeks at the edge; trailing room survives overflow */
+  .od-rail { display: flex; gap: var(--od-gap, 8px); overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
+             padding-inline: var(--od-rail-pad, 16px); scroll-padding-inline: var(--od-rail-pad, 16px); }
+  .od-rail::-webkit-scrollbar { display: none; }
+  :where(.od-rail) > :where(*) { flex: none; scroll-snap-align: start; }
+  :where(.od-rail) > :where(:last-child) { margin-inline-end: var(--od-rail-pad, 16px); }
+
+  .od-spacer { flex: none; visibility: hidden; pointer-events: none; }
+  .od-touch  { min-width: 44px; min-height: 44px; }
+}
+:root [hidden]:where(:not([hidden="until-found" i])) { display: none; }
+/* /OD-LAYOUT-PRIMITIVES v1 */
+
+:root {
+  --ink: #0a0b0e;
+  --ink-2: #111318;
+  --paper: #f7f7f5;
+  --paper-2: #eeeee9;
+  --panel: #ffffff;
+  --text: #14161b;
+  --muted: #5c606b;
+  --muted-dark: #b3b8c4;
+  --line-light: rgba(10, 11, 14, 0.12);
+  --line-dark: rgba(255, 255, 255, 0.14);
+  --accent: #1f5fd6;
+  --accent-bright: #8fb4ff;
+  --focus: #3b7df5;
+  --error: #a3211a;
+
+  --font: "Manrope", "Helvetica Neue", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --fs-hero: clamp(3.1rem, 8.8vw, 7.6rem);
+  --fs-h2: clamp(2rem, 4.2vw, 3.5rem);
+  --fs-h3: clamp(1.3rem, 2.1vw, 1.9rem);
+  --fs-body: 1rem;
+  --fs-lede: clamp(1.04rem, 0.5vw + 0.92rem, 1.28rem);
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 64px;
+  --s9: 96px;
+  --s10: 128px;
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body.is-locked {
+  overflow: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, p, ul, ol, blockquote, figure {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+::selection {
+  background: rgba(31, 95, 214, 0.22);
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 200;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #fff;
+  color: #0a0b0e;
+  font-weight: 600;
+  transform: translateY(-160%);
+  transition: transform 0.2s var(--ease);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+.wrap {
+  width: min(1240px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+/* ---------- type ---------- */
+
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  letter-spacing: -0.025em;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted-dark);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-bright);
+}
+
+.eyebrow-dark {
+  color: #6a6f7a;
+}
+
+.eyebrow-dark::before {
+  background: var(--accent);
+}
+
+.lede {
+  margin-top: var(--s5);
+  max-width: 62ch;
+  font-size: var(--fs-lede);
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 26px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.25s var(--ease), border-color 0.25s var(--ease),
+    color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.btn:active {
+  transform: scale(0.985);
+}
+
+.btn-light {
+  background: #f7f7f5;
+  color: #0a0b0e;
+}
+
+.btn-light:hover {
+  background: #ffffff;
+}
+
+.btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.btn-outline-light:hover {
+  border-color: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.btn-primary {
+  background: #14161b;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #272b34;
+}
+
+.btn-ghost {
+  border-color: rgba(10, 11, 14, 0.2);
+  color: var(--text);
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  background: rgba(10, 11, 14, 0.05);
+}
+
+.btn[disabled] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.link-btn {
+  align-self: flex-start;
+  min-height: 44px;
+  padding: 8px 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+/* ---------- nav ---------- */
+
+.nav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 60;
+  color: #f3f4f6;
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.35s var(--ease), color 0.35s var(--ease),
+    border-color 0.35s var(--ease);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s5);
+  height: 66px;
+}
+
+.nav.is-scrolled {
+  background: rgba(247, 247, 245, 0.88);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: var(--text);
+  border-bottom-color: rgba(10, 11, 14, 0.08);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.brand-mark {
+  display: inline-flex;
+  color: var(--accent-bright);
+}
+
+.nav.is-scrolled .brand-mark {
+  color: var(--accent);
+}
+
+.brand-text {
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+}
+
+.brand-text span {
+  font-weight: 400;
+  opacity: 0.66;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-links a {
+  padding: 6px 0;
+  opacity: 0.82;
+  transition: opacity 0.2s var(--ease);
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 18px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.nav.is-scrolled .nav-cta {
+  background: #14161b;
+  border-color: #14161b;
+  color: #ffffff;
+}
+
+.nav.is-scrolled .nav-cta:hover {
+  background: #272b34;
+}
+
+.nav.is-menu-open,
+.nav.is-menu-open.is-scrolled {
+  background: transparent;
+  color: #ffffff;
+  border-bottom-color: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.nav.is-menu-open .nav-cta {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin-right: -10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  position: absolute;
+  left: 12px;
+  width: 20px;
+  height: 1.6px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.3s var(--ease), opacity 0.2s var(--ease);
+}
+
+.nav-toggle-bar:nth-child(1) {
+  top: 18px;
+}
+
+.nav-toggle-bar:nth-child(2) {
+  top: 25px;
+}
+
+.nav-toggle.is-open .nav-toggle-bar:nth-child(1) {
+  transform: translateY(3.5px) rotate(45deg);
+}
+
+.nav-toggle.is-open .nav-toggle-bar:nth-child(2) {
+  transform: translateY(-3.5px) rotate(-45deg);
+}
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 108px 24px 40px;
+  background: var(--ink);
+  color: #ffffff;
+  overflow-y: auto;
+}
+
+.mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu nav a {
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.mobile-menu-cta {
+  width: 100%;
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: calc(66px + clamp(56px, 9vh, 104px)) 0 clamp(56px, 8vw, 96px);
+  overflow: hidden;
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(58% 46% at 50% 0%, rgba(31, 95, 214, 0.26), transparent 72%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  width: min(1160px, calc(100% - 48px));
+  text-align: center;
+}
+
+.hero h1 {
+  margin-top: var(--s4);
+  font-size: var(--fs-hero);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.hero-line {
+  display: block;
+}
+
+.hero-line-dim {
+  background-image: linear-gradient(180deg, #ffffff 8%, #9fb0d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .hero-line-dim {
+    color: #c7d2ea;
+    -webkit-text-fill-color: currentColor;
+  }
+}
+
+.hero-sub {
+  margin: var(--s5) auto 0;
+  max-width: 56ch;
+  font-size: var(--fs-lede);
+  line-height: 1.55;
+  color: #c2c7d3;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s3);
+  margin-top: var(--s7);
+}
+
+.hero-art {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: min(64%, 540px);
+  color: #9db4e6;
+  opacity: 0.55;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 32%, #000 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 32%, #000 100%);
+}
+
+.hero-art svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.art-grid path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1;
+  opacity: 0.1;
+}
+
+.art-main path,
+.art-main circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  opacity: 0.5;
+}
+
+.art-dots circle {
+  fill: #ffffff;
+  opacity: 0.5;
+}
+
+.hero-art .art-main path {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  animation: draw 2.6s var(--ease) 0.25s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ---------- strip ---------- */
+
+.strip {
+  padding: clamp(28px, 4vw, 44px) 0;
+  background: var(--ink);
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.strip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s5);
+}
+
+.strip-item {
+  gap: 6px;
+  padding-left: var(--s5);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.strip-item:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.strip-value {
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.strip-caption {
+  font-size: 0.85rem;
+  color: #9aa0ad;
+}
+
+/* ---------- sections ---------- */
+
+.section {
+  padding: clamp(72px, 9vw, 128px) 0;
+}
+
+.section-head {
+  max-width: 860px;
+  margin-bottom: clamp(40px, 5vw, 68px);
+}
+
+.section-head h2 {
+  margin: var(--s4) 0 0;
+}
+
+/* ---------- programmes ---------- */
+
+.programmes {
+  background: var(--paper);
+}
+
+.programme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s5);
+}
+
+.programme-card {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(28px, 3.4vw, 46px);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(165deg, #14161c 0%, #0a0b0e 62%);
+  color: #f2f3f5;
+  transition: transform 0.45s var(--ease), box-shadow 0.45s var(--ease);
+}
+
+.programme-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 60px -32px rgba(10, 11, 14, 0.55);
+}
+
+.card-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-bright);
+}
+
+.programme-card h3 {
+  margin-top: var(--s3);
+  font-size: clamp(1.85rem, 2.7vw, 2.55rem);
+  letter-spacing: -0.035em;
+}
+
+.programme-copy {
+  margin-top: var(--s4);
+  max-width: 44ch;
+  font-size: 0.99rem;
+  line-height: 1.62;
+  color: #bcc1cc;
+}
+
+.programme-list {
+  margin-top: var(--s6);
+  list-style: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.programme-list li {
+  position: relative;
+  padding: 12px 0 12px 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.93rem;
+  color: #d3d7df;
+}
+
+.programme-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 21px;
+  width: 9px;
+  height: 1.5px;
+  background: var(--accent-bright);
+}
+
+.programme-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  min-height: 44px;
+  margin-top: auto;
+  padding: var(--s5) 0 6px;
+  color: var(--accent-bright);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.programme-link svg {
+  transition: transform 0.25s var(--ease);
+}
+
+.programme-link:hover svg {
+  transform: translateX(3px);
+}
+
+/* ---------- approach ---------- */
+
+.approach {
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.approach-head {
+  max-width: 900px;
+}
+
+.approach-head h2 {
+  margin-top: var(--s4);
+}
+
+.approach-lede {
+  margin-top: var(--s5);
+  max-width: 52ch;
+  font-size: var(--fs-lede);
+  line-height: 1.6;
+  color: #b0b5c1;
+}
+
+.principle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 4vw, 48px);
+  margin-top: clamp(48px, 6vw, 80px);
+}
+
+.principle {
+  padding-top: var(--s5);
+  border-top: 1px solid var(--line-dark);
+}
+
+.principle-num {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--accent-bright);
+}
+
+.principle h3 {
+  margin-top: var(--s4);
+  font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+}
+
+.principle p:last-child {
+  margin-top: var(--s3);
+  max-width: 34ch;
+  font-size: 0.98rem;
+  line-height: 1.62;
+  color: #b0b5c1;
+}
+
+.pull-quote {
+  max-width: 880px;
+  margin: clamp(56px, 7vw, 96px) auto 0;
+  padding-top: clamp(40px, 5vw, 64px);
+  border-top: 1px solid var(--line-dark);
+  text-align: center;
+}
+
+.pull-quote p {
+  font-size: clamp(1.45rem, 2.9vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.pull-quote footer {
+  margin-top: var(--s5);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8f95a3;
+}
+
+/* ---------- method ---------- */
+
+.method {
+  background: var(--paper-2);
+}
+
+.method-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(20px, 3vw, 40px);
+  list-style: none;
+}
+
+.method-step {
+  padding-top: var(--s5);
+  border-top: 1px solid rgba(10, 11, 14, 0.16);
+}
+
+.method-num {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+}
+
+.method-step h3 {
+  margin-top: var(--s4);
+  font-size: clamp(1.15rem, 1.6vw, 1.4rem);
+}
+
+.method-step p:last-child {
+  margin-top: var(--s3);
+  max-width: 32ch;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ---------- founders ---------- */
+
+.founders {
+  background: var(--panel);
+  border-top: 1px solid rgba(10, 11, 14, 0.06);
+}
+
+.founders-head {
+  max-width: 820px;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(32px, 5vw, 72px);
+}
+
+.founder {
+  padding-top: var(--s5);
+  border-top: 1px solid var(--line-light);
+}
+
+.founder-top {
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+}
+
+.founder-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #eef2fb;
+  color: var(--accent);
+  font-size: 1.32rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.founder-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.founder-name {
+  margin-top: var(--s5);
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+}
+
+.founder-credentials {
+  display: grid;
+  gap: 6px;
+  margin-top: var(--s3);
+  list-style: none;
+}
+
+.founder-credentials li {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ---------- faq ---------- */
+
+.faq {
+  background: var(--paper);
+}
+
+.faq-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(32px, 6vw, 96px);
+  align-items: start;
+}
+
+.faq-head h2 {
+  margin-top: var(--s4);
+  max-width: 12ch;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--line-light);
+}
+
+.faq-item:first-child {
+  border-top: 1px solid var(--line-light);
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s4);
+  min-height: 64px;
+  padding: 18px 0;
+  font-size: clamp(1rem, 1.15vw, 1.12rem);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary:hover {
+  color: var(--accent);
+}
+
+.faq-plus {
+  position: relative;
+  flex: none;
+  width: 14px;
+  height: 14px;
+  color: var(--muted);
+  transition: transform 0.3s var(--ease), color 0.3s var(--ease);
+}
+
+.faq-plus::before,
+.faq-plus::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 1.5px;
+  background: currentColor;
+}
+
+.faq-plus::after {
+  transform: rotate(90deg);
+}
+
+.faq-item[open] .faq-plus {
+  transform: rotate(45deg);
+  color: var(--accent);
+}
+
+.faq-item[open] summary {
+  color: var(--accent);
+}
+
+.faq-body p {
+  max-width: 56ch;
+  padding-bottom: var(--s5);
+  font-size: 0.98rem;
+  line-height: 1.62;
+  color: var(--muted);
+}
+
+.faq-item[open] .faq-body {
+  animation: reveal-in 0.3s var(--ease) both;
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- place ---------- */
+
+.place {
+  padding: clamp(64px, 8vw, 112px) 0;
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.place-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+
+.place-copy h2 {
+  margin: var(--s4) 0 var(--s5);
+}
+
+.place-copy p {
+  max-width: 46ch;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #b3b8c4;
+}
+
+.place-card {
+  padding: clamp(24px, 3vw, 36px);
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.place-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8f95a3;
+}
+
+.place-value {
+  margin-top: var(--s3);
+  font-size: clamp(1.3rem, 2vw, 1.62rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+.place-note {
+  margin: var(--s3) 0 var(--s5);
+  font-size: 0.9rem;
+  color: #9aa0ad;
+}
+
+.place-card .btn {
+  width: 100%;
+}
+
+/* ---------- enquiry ---------- */
+
+.enquiry {
+  background: var(--paper);
+}
+
+.enquiry-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+
+.enquiry-intro {
+  position: sticky;
+  top: 104px;
+}
+
+.enquiry-intro h2 {
+  margin: var(--s4) 0 var(--s5);
+  font-size: clamp(1.9rem, 3.2vw, 2.9rem);
+}
+
+.contact-direct {
+  display: grid;
+  gap: var(--s4);
+  margin-top: clamp(32px, 4vw, 48px);
+  max-width: 420px;
+}
+
+.contact-link {
+  display: grid;
+  gap: 4px;
+  padding-top: var(--s3);
+  border-top: 1px solid var(--line-light);
+}
+
+.contact-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contact-value {
+  font-size: 1.06rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.contact-link:hover .contact-value {
+  color: var(--accent);
+}
+
+.enquiry-panel {
+  padding: clamp(24px, 3.4vw, 44px);
+  border: 1px solid rgba(10, 11, 14, 0.09);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+  box-shadow: 0 24px 60px -48px rgba(10, 11, 14, 0.4);
+}
+
+.enquiry-form {
+  display: block;
+}
+
+.field {
+  margin-bottom: var(--s5);
+}
+
+.field label {
+  display: block;
+  margin-bottom: var(--s2);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  color: #33363f;
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 11px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(20, 22, 27, 0.26);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.field textarea {
+  min-height: 88px;
+  resize: vertical;
+}
+
+.field input:hover,
+.field select:hover,
+.field textarea:hover {
+  border-bottom-color: rgba(20, 22, 27, 0.5);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+  box-shadow: 0 2px 0 0 var(--accent);
+}
+
+.field input[aria-invalid="true"],
+.field select[aria-invalid="true"],
+.field textarea[aria-invalid="true"] {
+  border-bottom-color: var(--error);
+  box-shadow: 0 2px 0 0 var(--error);
+}
+
+.field-error {
+  margin-top: var(--s2);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--error);
+}
+
+.select-wrap {
+  position: relative;
+}
+
+.select-wrap select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.select-chevron {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.form-summary {
+  margin-bottom: var(--s5);
+  padding: var(--s4);
+  border: 1px solid #e3b3ae;
+  border-radius: var(--radius-md);
+  background: #fdf1ef;
+  color: #7d1c15;
+}
+
+.form-summary-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.form-summary ul {
+  margin: var(--s2) 0 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+}
+
+.form-summary a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: var(--s2);
+}
+
+.form-note {
+  margin-top: var(--s4);
+  font-size: 0.86rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.form-note a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.enquiry-result {
+  display: block;
+}
+
+.enquiry-result h3 {
+  font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  line-height: 1.2;
+}
+
+.result-name {
+  display: block;
+  color: var(--accent);
+}
+
+.result-copy {
+  margin-top: var(--s3);
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.result-message {
+  margin: var(--s5) 0;
+  max-height: 280px;
+  overflow: auto;
+  padding: var(--s4);
+  border: 1px solid var(--line-light);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  font-size: 0.93rem;
+  line-height: 1.65;
+  color: #2b2e35;
+  white-space: pre-line;
+}
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+}
+
+.result-note {
+  min-height: 22px;
+  margin-top: var(--s3);
+  font-size: 0.86rem;
+  color: var(--accent);
+}
+
+/* ---------- footer ---------- */
+
+.footer {
+  padding: clamp(56px, 7vw, 88px) 0 32px;
+  background: var(--ink);
+  color: #cfd3db;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.8fr repeat(3, minmax(0, 0.8fr));
+  gap: clamp(32px, 4vw, 56px);
+  padding-bottom: var(--s7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-name {
+  font-size: 1.06rem;
+  color: #ffffff;
+  white-space: normal;
+}
+
+.footer-tagline {
+  margin-top: var(--s3);
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: #9aa0ad;
+}
+
+.footer-label {
+  margin-bottom: var(--s3);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8f95a3;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.92rem;
+}
+
+.footer-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 2px 0;
+  color: #cfd3db;
+  overflow-wrap: anywhere;
+  transition: color 0.2s var(--ease);
+}
+
+.footer-nav a:hover {
+  color: #ffffff;
+}
+
+.footer-area {
+  color: #8f95a3;
+  font-size: 0.9rem;
+}
+
+.footer-base {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding-top: var(--s5);
+  font-size: 0.8rem;
+  color: #8a90a0;
+}
+
+/* ---------- reveal ---------- */
+
+.has-reveal [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+  transition-delay: var(--d, 0ms);
+}
+
+.has-reveal [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 1080px) {
+  .faq-wrap,
+  .enquiry-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .enquiry-intro {
+    position: static;
+  }
+
+  .enquiry-intro .lede {
+    max-width: 56ch;
+  }
+
+  .contact-direct {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s5);
+    max-width: none;
+  }
+
+  .place-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .place-card {
+    max-width: 520px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .programme-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .principle-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s6);
+  }
+
+  .founder-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s6);
+  }
+
+  .principle p:last-child {
+    max-width: 52ch;
+  }
+
+  .method-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s6) var(--s5);
+  }
+
+  .approach-head {
+    max-width: 30ch;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s6) var(--s5);
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-nav a {
+    min-height: 44px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrap {
+    width: calc(100% - 32px);
+  }
+
+  .hero-inner {
+    width: calc(100% - 32px);
+  }
+
+  .strip-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s5) var(--s4);
+  }
+
+  .strip-item {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .hero {
+    min-height: 92vh;
+    min-height: 92svh;
+  }
+
+  .hero-art {
+    height: 54%;
+    opacity: 0.45;
+  }
+
+  .hero-actions .btn {
+    flex: 1 1 220px;
+  }
+
+  .nav-cta {
+    display: none;
+  }
+
+  .mobile-menu {
+    padding-top: 96px;
+  }
+
+  .programme-list li {
+    padding-right: 0;
+  }
+
+  .place-card .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .method-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-direct {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s5);
+  }
+
+  .footer-base {
+    flex-direction: column;
+    gap: var(--s2);
+  }
+
+  .enquiry-panel {
+    padding: 22px 20px;
+  }
+
+  .result-actions .btn {
+    flex: 1 1 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .has-reveal [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero-art .art-main path {
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+}
+</style>
+<script defer src="data:text/javascript;base64,KCgpID0+IHsKICAidXNlIHN0cmljdCI7CgogIGNvbnN0IGJvZHkgPSBkb2N1bWVudC5ib2R5OwogIGNvbnN0IHJlZHVjZU1vdGlvbiA9IHdpbmRvdy5tYXRjaE1lZGlhKCIocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSIpOwogIGNvbnN0IHBob25lRGlzcGxheSA9IGJvZHkuZGF0YXNldC5waG9uZSB8fCAiIjsKICBjb25zdCBwaG9uZURpZ2l0cyA9IHBob25lRGlzcGxheS5yZXBsYWNlKC9bXlxkK10vZywgIiIpOwogIGNvbnN0IHdoYXRzYXBwRGlnaXRzID0gKGJvZHkuZGF0YXNldC53aGF0c2FwcCB8fCAiIikucmVwbGFjZSgvXEQvZywgIiIpOwogIGNvbnN0IGVtYWlsQWRkcmVzcyA9IChib2R5LmRhdGFzZXQuZW1haWwgfHwgIiIpLnRyaW0oKTsKICBjb25zdCBtYXBVcmwgPSBib2R5LmRhdGFzZXQubWFwIHx8ICIiOwoKICBjb25zdCAkID0gKHNlbGVjdG9yLCByb290ID0gZG9jdW1lbnQpID0+IHJvb3QucXVlcnlTZWxlY3RvcihzZWxlY3Rvcik7CiAgY29uc3QgJCQgPSAoc2VsZWN0b3IsIHJvb3QgPSBkb2N1bWVudCkgPT4gQXJyYXkuZnJvbShyb290LnF1ZXJ5U2VsZWN0b3JBbGwoc2VsZWN0b3IpKTsKCiAgLyogY29udGFjdCBkZXRhaWxzICovCiAgJCQoIltkYXRhLXBob25lLXRleHRdIikuZm9yRWFjaCgobm9kZSkgPT4gewogICAgaWYgKHBob25lRGlzcGxheSkgbm9kZS50ZXh0Q29udGVudCA9IHBob25lRGlzcGxheTsKICB9KTsKICAkJCgiW2RhdGEtcGhvbmUtbGlua10sICNwaG9uZUxpbmssICNyZXN1bHRDYWxsIikuZm9yRWFjaCgobm9kZSkgPT4gewogICAgaWYgKHBob25lRGlnaXRzLmxlbmd0aCA+IDMpIG5vZGUuc2V0QXR0cmlidXRlKCJocmVmIiwgYHRlbDoke3Bob25lRGlnaXRzfWApOwogIH0pOwogIGNvbnN0IHdoYXRzYXBwQmFzZSA9IHdoYXRzYXBwRGlnaXRzID8gYGh0dHBzOi8vd2EubWUvJHt3aGF0c2FwcERpZ2l0c31gIDogIiI7CiAgWyIjd2hhdHNhcHBMaW5rIiwgIiNmb290ZXJXaGF0c2FwcCIsICIjcmVzdWx0V2hhdHNhcHAiXS5mb3JFYWNoKChzZWxlY3RvcikgPT4gewogICAgY29uc3Qgbm9kZSA9ICQoc2VsZWN0b3IpOwogICAgaWYgKCFub2RlKSByZXR1cm47CiAgICBpZiAod2hhdHNhcHBCYXNlKSBub2RlLnNldEF0dHJpYnV0ZSgiaHJlZiIsIHdoYXRzYXBwQmFzZSk7CiAgICBlbHNlIG5vZGUuc2V0QXR0cmlidXRlKCJoaWRkZW4iLCAiIik7CiAgfSk7CiAgWyIjZW1haWxMaW5rIiwgIiNmb290ZXJFbWFpbCJdLmZvckVhY2goKHNlbGVjdG9yKSA9PiB7CiAgICBjb25zdCBub2RlID0gJChzZWxlY3Rvcik7CiAgICBpZiAoIW5vZGUpIHJldHVybjsKICAgIGlmIChlbWFpbEFkZHJlc3MpIG5vZGUuc2V0QXR0cmlidXRlKCJocmVmIiwgYG1haWx0bzoke2VtYWlsQWRkcmVzc31gKTsKICAgIGVsc2Ugbm9kZS5zZXRBdHRyaWJ1dGUoImhpZGRlbiIsICIiKTsKICB9KTsKICBjb25zdCBtYXBMaW5rID0gJCgiI21hcExpbmsiKTsKICBpZiAobWFwTGluayAmJiBtYXBVcmwpIG1hcExpbmsuc2V0QXR0cmlidXRlKCJocmVmIiwgbWFwVXJsKTsKCiAgY29uc3QgeWVhck5vZGUgPSAkKCIjeWVhciIpOwogIGlmICh5ZWFyTm9kZSkgeWVhck5vZGUudGV4dENvbnRlbnQgPSBTdHJpbmcobmV3IERhdGUoKS5nZXRGdWxsWWVhcigpKTsKCiAgLyogc3RpY2t5IG5hdmlnYXRpb24gKi8KICBjb25zdCBuYXYgPSAkKCIjbmF2Iik7CiAgY29uc3QgaGVyb0FydCA9ICQoIi5oZXJvLWFydCIpOwogIGxldCB0aWNraW5nID0gZmFsc2U7CgogIGNvbnN0IG9uU2Nyb2xsID0gKCkgPT4gewogICAgaWYgKHRpY2tpbmcpIHJldHVybjsKICAgIHRpY2tpbmcgPSB0cnVlOwogICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgICAgIGNvbnN0IHkgPSB3aW5kb3cuc2Nyb2xsWTsKICAgICAgaWYgKG5hdikgbmF2LmNsYXNzTGlzdC50b2dnbGUoImlzLXNjcm9sbGVkIiwgeSA+IDI0KTsKICAgICAgaWYgKGhlcm9BcnQgJiYgIXJlZHVjZU1vdGlvbi5tYXRjaGVzICYmIHdpbmRvdy5pbm5lcldpZHRoID4gOTAwKSB7CiAgICAgICAgaGVyb0FydC5zdHlsZS50cmFuc2Zvcm0gPSBgdHJhbnNsYXRlWSgke01hdGgubWluKHkgKiAwLjA4LCA2NCl9cHgpYDsKICAgICAgfSBlbHNlIGlmIChoZXJvQXJ0KSB7CiAgICAgICAgaGVyb0FydC5zdHlsZS50cmFuc2Zvcm0gPSAiIjsKICAgICAgfQogICAgICB0aWNraW5nID0gZmFsc2U7CiAgICB9KTsKICB9OwoKICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigic2Nyb2xsIiwgb25TY3JvbGwsIHsgcGFzc2l2ZTogdHJ1ZSB9KTsKICBvblNjcm9sbCgpOwoKICAvKiBtb2JpbGUgbWVudSAqLwogIGNvbnN0IG1lbnUgPSAkKCIjbW9iaWxlTWVudSIpOwogIGNvbnN0IHRvZ2dsZSA9ICQoIiNuYXZUb2dnbGUiKTsKICBsZXQgbWVudU9wZW4gPSBmYWxzZTsKCiAgY29uc3QgZm9jdXNhYmxlcyA9ICgpID0+IHsKICAgIGlmICghbWVudSkgcmV0dXJuIFtdOwogICAgcmV0dXJuICQkKCJhLCBidXR0b24iLCBtZW51KS5maWx0ZXIoKG5vZGUpID0+ICFub2RlLmhhc0F0dHJpYnV0ZSgiaGlkZGVuIikpOwogIH07CgogIGNvbnN0IG9wZW5NZW51ID0gKCkgPT4gewogICAgaWYgKCFtZW51IHx8ICF0b2dnbGUgfHwgbWVudU9wZW4pIHJldHVybjsKICAgIG1lbnVPcGVuID0gdHJ1ZTsKICAgIG1lbnUuaGlkZGVuID0gZmFsc2U7CiAgICB0b2dnbGUuY2xhc3NMaXN0LmFkZCgiaXMtb3BlbiIpOwogICAgdG9nZ2xlLnNldEF0dHJpYnV0ZSgiYXJpYS1leHBhbmRlZCIsICJ0cnVlIik7CiAgICB0b2dnbGUuc2V0QXR0cmlidXRlKCJhcmlhLWxhYmVsIiwgIkNsb3NlIG1lbnUiKTsKICAgIGlmIChuYXYpIG5hdi5jbGFzc0xpc3QuYWRkKCJpcy1tZW51LW9wZW4iKTsKICAgIGJvZHkuY2xhc3NMaXN0LmFkZCgiaXMtbG9ja2VkIik7CiAgICBjb25zdCBmaXJzdCA9IGZvY3VzYWJsZXMoKVswXTsKICAgIGlmIChmaXJzdCkgZmlyc3QuZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiB0cnVlIH0pOwogIH07CgogIGNvbnN0IGNsb3NlTWVudSA9IChyZXR1cm5Gb2N1cyA9IHRydWUpID0+IHsKICAgIGlmICghbWVudSB8fCAhdG9nZ2xlIHx8ICFtZW51T3BlbikgcmV0dXJuOwogICAgbWVudU9wZW4gPSBmYWxzZTsKICAgIG1lbnUuaGlkZGVuID0gdHJ1ZTsKICAgIHRvZ2dsZS5jbGFzc0xpc3QucmVtb3ZlKCJpcy1vcGVuIik7CiAgICB0b2dnbGUuc2V0QXR0cmlidXRlKCJhcmlhLWV4cGFuZGVkIiwgImZhbHNlIik7CiAgICB0b2dnbGUuc2V0QXR0cmlidXRlKCJhcmlhLWxhYmVsIiwgIk9wZW4gbWVudSIpOwogICAgaWYgKG5hdikgbmF2LmNsYXNzTGlzdC5yZW1vdmUoImlzLW1lbnUtb3BlbiIpOwogICAgYm9keS5jbGFzc0xpc3QucmVtb3ZlKCJpcy1sb2NrZWQiKTsKICAgIGlmIChyZXR1cm5Gb2N1cykgdG9nZ2xlLmZvY3VzKHsgcHJldmVudFNjcm9sbDogdHJ1ZSB9KTsKICB9OwoKICBpZiAodG9nZ2xlKSB7CiAgICB0b2dnbGUuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCAoKSA9PiB7CiAgICAgIGlmIChtZW51T3BlbikgY2xvc2VNZW51KCk7CiAgICAgIGVsc2Ugb3Blbk1lbnUoKTsKICAgIH0pOwogIH0KCiAgaWYgKG1lbnUpIHsKICAgIG1lbnUuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCAoZXZlbnQpID0+IHsKICAgICAgY29uc3QgbGluayA9IGV2ZW50LnRhcmdldC5jbG9zZXN0KCJhIik7CiAgICAgIGlmIChsaW5rKSBjbG9zZU1lbnUoZmFsc2UpOwogICAgfSk7CiAgfQoKICBjb25zdCBicmFuZCA9ICQoIi5icmFuZCIpOwogIGlmIChicmFuZCkgYnJhbmQuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCAoKSA9PiBjbG9zZU1lbnUoZmFsc2UpKTsKCiAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigia2V5ZG93biIsIChldmVudCkgPT4gewogICAgaWYgKCFtZW51T3BlbikgcmV0dXJuOwogICAgaWYgKGV2ZW50LmtleSA9PT0gIkVzY2FwZSIpIHsKICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgICAgY2xvc2VNZW51KCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIChldmVudC5rZXkgIT09ICJUYWIiKSByZXR1cm47CiAgICBjb25zdCBsb29wID0gW3RvZ2dsZSwgLi4uZm9jdXNhYmxlcygpXS5maWx0ZXIoQm9vbGVhbik7CiAgICBpZiAobG9vcC5sZW5ndGggPT09IDApIHJldHVybjsKICAgIGNvbnN0IGZpcnN0ID0gbG9vcFswXTsKICAgIGNvbnN0IGxhc3QgPSBsb29wW2xvb3AubGVuZ3RoIC0gMV07CiAgICBpZiAoZXZlbnQuc2hpZnRLZXkgJiYgZG9jdW1lbnQuYWN0aXZlRWxlbWVudCA9PT0gZmlyc3QpIHsKICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgICAgbGFzdC5mb2N1cygpOwogICAgfSBlbHNlIGlmICghZXZlbnQuc2hpZnRLZXkgJiYgZG9jdW1lbnQuYWN0aXZlRWxlbWVudCA9PT0gbGFzdCkgewogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBmaXJzdC5mb2N1cygpOwogICAgfQogIH0pOwoKICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigicmVzaXplIiwgKCkgPT4gewogICAgaWYgKG1lbnVPcGVuICYmIHdpbmRvdy5pbm5lcldpZHRoID4gOTAwKSBjbG9zZU1lbnUoZmFsc2UpOwogIH0pOwoKICAvKiBzY3JvbGwgcmV2ZWFsICovCiAgY29uc3QgcmV2ZWFsTm9kZXMgPSAkJCgiW2RhdGEtcmV2ZWFsXSIpOwogIGlmIChyZXZlYWxOb2Rlcy5sZW5ndGgpIHsKICAgIGlmIChyZWR1Y2VNb3Rpb24ubWF0Y2hlcyB8fCAhKCJJbnRlcnNlY3Rpb25PYnNlcnZlciIgaW4gd2luZG93KSkgewogICAgICByZXZlYWxOb2Rlcy5mb3JFYWNoKChub2RlKSA9PiBub2RlLmNsYXNzTGlzdC5hZGQoImlzLWluIikpOwogICAgfSBlbHNlIHsKICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTGlzdC5hZGQoImhhcy1yZXZlYWwiKTsKICAgICAgY29uc3Qgb2JzZXJ2ZXIgPSBuZXcgSW50ZXJzZWN0aW9uT2JzZXJ2ZXIoCiAgICAgICAgKGVudHJpZXMpID0+IHsKICAgICAgICAgIGVudHJpZXMuZm9yRWFjaCgoZW50cnkpID0+IHsKICAgICAgICAgICAgaWYgKCFlbnRyeS5pc0ludGVyc2VjdGluZykgcmV0dXJuOwogICAgICAgICAgICBlbnRyeS50YXJnZXQuY2xhc3NMaXN0LmFkZCgiaXMtaW4iKTsKICAgICAgICAgICAgb2JzZXJ2ZXIudW5vYnNlcnZlKGVudHJ5LnRhcmdldCk7CiAgICAgICAgICB9KTsKICAgICAgICB9LAogICAgICAgIHsgdGhyZXNob2xkOiAwLjEyLCByb290TWFyZ2luOiAiMHB4IDBweCAtNiUgMHB4IiB9CiAgICAgICk7CiAgICAgIHJldmVhbE5vZGVzLmZvckVhY2goKG5vZGUpID0+IG9ic2VydmVyLm9ic2VydmUobm9kZSkpOwogICAgfQogIH0KCiAgLyogZW5xdWlyeSBmb3JtICovCiAgY29uc3QgZm9ybSA9ICQoIiNlbnF1aXJ5Rm9ybSIpOwogIGNvbnN0IHJlc3VsdCA9ICQoIiNlbnF1aXJ5UmVzdWx0Iik7CiAgY29uc3Qgc3VtbWFyeSA9ICQoIiNmb3JtU3VtbWFyeSIpOwogIGNvbnN0IHN1bW1hcnlMaXN0ID0gJCgiI2Zvcm1TdW1tYXJ5TGlzdCIpOwogIGNvbnN0IHN1Ym1pdEJ0biA9ICQoIiNzdWJtaXRCdG4iKTsKCiAgY29uc3QgZmllbGRzID0gWwogICAgeyBpZDogImZ1bGxOYW1lIiwgbGFiZWw6ICJTdHVkZW50IG9yIHBhcmVudCBuYW1lIiB9LAogICAgeyBpZDogInBob25lIiwgbGFiZWw6ICJQaG9uZSBudW1iZXIiIH0sCiAgICB7IGlkOiAiY2xhc3NZZWFyIiwgbGFiZWw6ICJDbGFzcyIgfSwKICAgIHsgaWQ6ICJzbG90IiwgbGFiZWw6ICJQcmVmZXJyZWQgdGltZSIgfSwKICAgIHsgaWQ6ICJtZXNzYWdlIiwgbGFiZWw6ICJNZXNzYWdlIiB9CiAgXS5tYXAoKGl0ZW0pID0+IHsKICAgIGNvbnN0IGlucHV0ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaXRlbS5pZCk7CiAgICBjb25zdCBlcnJvciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGAke2l0ZW0uaWR9RXJyb3JgKTsKICAgIHJldHVybiB7IC4uLml0ZW0sIGlucHV0LCBlcnJvciB9OwogIH0pOwoKICBpZiAoZm9ybSkgewogICAgY29uc3QgdmFsaWRhdGVGaWVsZCA9IChmaWVsZCkgPT4gewogICAgICBjb25zdCB7IGlucHV0LCBlcnJvciwgaWQgfSA9IGZpZWxkOwogICAgICBpZiAoIWlucHV0KSByZXR1cm4gdHJ1ZTsKICAgICAgY29uc3QgdmFsdWUgPSBpbnB1dC52YWx1ZS50cmltKCk7CiAgICAgIGxldCBtZXNzYWdlID0gIiI7CgogICAgICBpZiAoaWQgPT09ICJmdWxsTmFtZSIpIHsKICAgICAgICBpZiAoIXZhbHVlKSBtZXNzYWdlID0gIkFkZCBhIG5hbWUgc28gdGhlIGNlbnRyZSBrbm93cyB3aG8gdG8gcmVwbHkgdG8uIjsKICAgICAgICBlbHNlIGlmICh2YWx1ZS5sZW5ndGggPCAyKSBtZXNzYWdlID0gIkVudGVyIGF0IGxlYXN0IHR3byBjaGFyYWN0ZXJzLiI7CiAgICAgIH0KCiAgICAgIGlmIChpZCA9PT0gInBob25lIikgewogICAgICAgIGNvbnN0IGRpZ2l0cyA9IHZhbHVlLnJlcGxhY2UoL1xEL2csICIiKTsKICAgICAgICBpZiAoIXZhbHVlKSBtZXNzYWdlID0gIkFkZCBhIHBob25lIG51bWJlciB0aGUgY2VudHJlIGNhbiBjYWxsIGJhY2sgb24uIjsKICAgICAgICBlbHNlIGlmICgKICAgICAgICAgICEoCiAgICAgICAgICAgIChkaWdpdHMubGVuZ3RoID09PSAxMCAmJiAvXls2LTldLy50ZXN0KGRpZ2l0cykpIHx8CiAgICAgICAgICAgIChkaWdpdHMubGVuZ3RoID09PSAxMSAmJiBkaWdpdHMuc3RhcnRzV2l0aCgiMCIpICYmIC9eWzYtOV0vLnRlc3QoZGlnaXRzLnNsaWNlKDEpKSkgfHwKICAgICAgICAgICAgKGRpZ2l0cy5sZW5ndGggPT09IDEyICYmIGRpZ2l0cy5zdGFydHNXaXRoKCI5MSIpICYmIC9eWzYtOV0vLnRlc3QoZGlnaXRzLnNsaWNlKDIpKSkKICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgIG1lc3NhZ2UgPSAiRW50ZXIgYSAxMC1kaWdpdCBtb2JpbGUgbnVtYmVyLCBmb3IgZXhhbXBsZSA5ODQwMCAxMjM0NS4iOwogICAgICAgIH0KICAgICAgfQoKICAgICAgaWYgKGlkID09PSAiY2xhc3NZZWFyIiAmJiAhdmFsdWUpIG1lc3NhZ2UgPSAiQ2hvb3NlIHRoZSBjbGFzcyB0aGUgc3R1ZGVudCBpcyBpbi4iOwoKICAgICAgaWYgKGlkID09PSAic2xvdCIgJiYgIXZhbHVlKSBtZXNzYWdlID0gIkNob29zZSBhIHByZWZlcnJlZCB0aW1lLCBvciBwaWNrIOKAnE5vdCBzdXJlIHlldOKAnS4iOwoKICAgICAgaWYgKGlkID09PSAibWVzc2FnZSIgJiYgdmFsdWUubGVuZ3RoID4gNDAwKSBtZXNzYWdlID0gIktlZXAgdGhlIG1lc3NhZ2UgdW5kZXIgNDAwIGNoYXJhY3RlcnMuIjsKCiAgICAgIGlmIChtZXNzYWdlKSB7CiAgICAgICAgaW5wdXQuc2V0QXR0cmlidXRlKCJhcmlhLWludmFsaWQiLCAidHJ1ZSIpOwogICAgICAgIGlmIChlcnJvcikgewogICAgICAgICAgZXJyb3IudGV4dENvbnRlbnQgPSBtZXNzYWdlOwogICAgICAgICAgZXJyb3IuaGlkZGVuID0gZmFsc2U7CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgfQoKICAgICAgaW5wdXQucmVtb3ZlQXR0cmlidXRlKCJhcmlhLWludmFsaWQiKTsKICAgICAgaWYgKGVycm9yKSB7CiAgICAgICAgZXJyb3IudGV4dENvbnRlbnQgPSAiIjsKICAgICAgICBlcnJvci5oaWRkZW4gPSB0cnVlOwogICAgICB9CiAgICAgIHJldHVybiB0cnVlOwogICAgfTsKCiAgICBjb25zdCBjbGVhclN1bW1hcnkgPSAoKSA9PiB7CiAgICAgIGlmICghc3VtbWFyeSkgcmV0dXJuOwogICAgICBzdW1tYXJ5LmhpZGRlbiA9IHRydWU7CiAgICAgIGlmIChzdW1tYXJ5TGlzdCkgc3VtbWFyeUxpc3QuaW5uZXJIVE1MID0gIiI7CiAgICB9OwoKICAgIGNvbnN0IHNob3dTdW1tYXJ5ID0gKGZhaWxlZCkgPT4gewogICAgICBpZiAoIXN1bW1hcnkgfHwgIXN1bW1hcnlMaXN0KSByZXR1cm47CiAgICAgIHN1bW1hcnlMaXN0LmlubmVySFRNTCA9ICIiOwogICAgICBmYWlsZWQuZm9yRWFjaCgoZmllbGQpID0+IHsKICAgICAgICBjb25zdCBpdGVtID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgibGkiKTsKICAgICAgICBjb25zdCBsaW5rID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiYSIpOwogICAgICAgIGxpbmsuaHJlZiA9IGAjJHtmaWVsZC5pZH1gOwogICAgICAgIGxpbmsudGV4dENvbnRlbnQgPSBmaWVsZC5sYWJlbDsKICAgICAgICBsaW5rLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICAgICAgaWYgKCFmaWVsZC5pbnB1dCkgcmV0dXJuOwogICAgICAgICAgZmllbGQuaW5wdXQuZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiB0cnVlIH0pOwogICAgICAgICAgZmllbGQuaW5wdXQuc2Nyb2xsSW50b1ZpZXcoewogICAgICAgICAgICBiZWhhdmlvcjogcmVkdWNlTW90aW9uLm1hdGNoZXMgPyAiYXV0byIgOiAic21vb3RoIiwKICAgICAgICAgICAgYmxvY2s6ICJjZW50ZXIiCiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgICBpdGVtLmFwcGVuZENoaWxkKGxpbmspOwogICAgICAgIHN1bW1hcnlMaXN0LmFwcGVuZENoaWxkKGl0ZW0pOwogICAgICB9KTsKICAgICAgc3VtbWFyeS5oaWRkZW4gPSBmYWxzZTsKICAgICAgc3VtbWFyeS5mb2N1cyh7IHByZXZlbnRTY3JvbGw6IHRydWUgfSk7CiAgICAgIHN1bW1hcnkuc2Nyb2xsSW50b1ZpZXcoewogICAgICAgIGJlaGF2aW9yOiByZWR1Y2VNb3Rpb24ubWF0Y2hlcyA/ICJhdXRvIiA6ICJzbW9vdGgiLAogICAgICAgIGJsb2NrOiAiY2VudGVyIgogICAgICB9KTsKICAgIH07CgogICAgY29uc3QgbGl2ZVZhbGlkYXRlID0gKGZpZWxkKSA9PiB7CiAgICAgIGlmICghZmllbGQuaW5wdXQpIHJldHVybjsKICAgICAgY29uc3QgaW52YWxpZCA9IGZpZWxkLmlucHV0LmdldEF0dHJpYnV0ZSgiYXJpYS1pbnZhbGlkIikgPT09ICJ0cnVlIjsKICAgICAgaWYgKGludmFsaWQpIHsKICAgICAgICB2YWxpZGF0ZUZpZWxkKGZpZWxkKTsKICAgICAgICBjb25zdCBzdGlsbEludmFsaWQgPSBmaWVsZHMuc29tZSgKICAgICAgICAgIChpdGVtKSA9PiBpdGVtLmlucHV0ICYmIGl0ZW0uaW5wdXQuZ2V0QXR0cmlidXRlKCJhcmlhLWludmFsaWQiKSA9PT0gInRydWUiCiAgICAgICAgKTsKICAgICAgICBpZiAoIXN0aWxsSW52YWxpZCkgY2xlYXJTdW1tYXJ5KCk7CiAgICAgIH0KICAgIH07CgogICAgZmllbGRzLmZvckVhY2goKGZpZWxkKSA9PiB7CiAgICAgIGlmICghZmllbGQuaW5wdXQpIHJldHVybjsKICAgICAgZmllbGQuaW5wdXQuYWRkRXZlbnRMaXN0ZW5lcigiYmx1ciIsICgpID0+IHsKICAgICAgICBpZiAoZmllbGQuaW5wdXQudmFsdWUudHJpbSgpIHx8IGZpZWxkLmlucHV0LmdldEF0dHJpYnV0ZSgiYXJpYS1pbnZhbGlkIikgPT09ICJ0cnVlIikgewogICAgICAgICAgdmFsaWRhdGVGaWVsZChmaWVsZCk7CiAgICAgICAgfQogICAgICB9KTsKICAgICAgZmllbGQuaW5wdXQuYWRkRXZlbnRMaXN0ZW5lcigiaW5wdXQiLCAoKSA9PiBsaXZlVmFsaWRhdGUoZmllbGQpKTsKICAgICAgZmllbGQuaW5wdXQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKCkgPT4gbGl2ZVZhbGlkYXRlKGZpZWxkKSk7CiAgICB9KTsKCiAgICBjb25zdCBidWlsZEVucXVpcnkgPSAoKSA9PiB7CiAgICAgIGNvbnN0IG5hbWUgPSAkKCIjZnVsbE5hbWUiKSA/ICQoIiNmdWxsTmFtZSIpLnZhbHVlLnRyaW0oKSA6ICIiOwogICAgICBjb25zdCBwaG9uZSA9ICQoIiNwaG9uZSIpID8gJCgiI3Bob25lIikudmFsdWUudHJpbSgpIDogIiI7CiAgICAgIGNvbnN0IGNsYXNzWWVhciA9ICQoIiNjbGFzc1llYXIiKSA/ICQoIiNjbGFzc1llYXIiKS52YWx1ZSA6ICIiOwogICAgICBjb25zdCBzbG90ID0gJCgiI3Nsb3QiKSA/ICQoIiNzbG90IikudmFsdWUgOiAiIjsKICAgICAgY29uc3QgbWVzc2FnZSA9ICQoIiNtZXNzYWdlIikgPyAkKCIjbWVzc2FnZSIpLnZhbHVlLnRyaW0oKSA6ICIiOwoKICAgICAgY29uc3QgbGluZXMgPSBbCiAgICAgICAgYFR1aXRpb24gZW5xdWlyeSDigJQgJHtuYW1lfWAsCiAgICAgICAgIiIsCiAgICAgICAgYE5hbWU6ICR7bmFtZX1gLAogICAgICAgIGBQaG9uZTogJHtwaG9uZX1gLAogICAgICAgIGBDbGFzczogJHtjbGFzc1llYXJ9YCwKICAgICAgICBgUHJlZmVycmVkIHRpbWU6ICR7c2xvdH1gCiAgICAgIF07CiAgICAgIGlmIChtZXNzYWdlKSBsaW5lcy5wdXNoKGBOb3RlOiAke21lc3NhZ2V9YCk7CiAgICAgIGxpbmVzLnB1c2goIiIsICJTZW50IGZyb20gdGhlIGNlbnRyZSB3ZWJzaXRlLiIpOwogICAgICByZXR1cm4gbGluZXMuam9pbigiXG4iKTsKICAgIH07CgogICAgY29uc3Qgc2hvd1Jlc3VsdCA9ICgpID0+IHsKICAgICAgY29uc3QgbmFtZSA9ICQoIiNmdWxsTmFtZSIpID8gJCgiI2Z1bGxOYW1lIikudmFsdWUudHJpbSgpIDogIiI7CiAgICAgIGNvbnN0IHRleHQgPSBidWlsZEVucXVpcnkoKTsKICAgICAgY29uc3QgdGV4dE5vZGUgPSAkKCIjZW5xdWlyeVRleHQiKTsKICAgICAgY29uc3QgbmFtZU5vZGUgPSAkKCIjcmVzdWx0TmFtZSIpOwogICAgICBjb25zdCB0aXRsZSA9ICQoIiNyZXN1bHRUaXRsZSIpOwogICAgICBjb25zdCBjb3B5U3RhdHVzID0gJCgiI2NvcHlTdGF0dXMiKTsKICAgICAgY29uc3Qgd2FMaW5rID0gJCgiI3Jlc3VsdFdoYXRzYXBwIik7CiAgICAgIGNvbnN0IGVtYWlsTGluayA9ICQoIiNyZXN1bHRFbWFpbCIpOwoKICAgICAgaWYgKHRleHROb2RlKSB0ZXh0Tm9kZS50ZXh0Q29udGVudCA9IHRleHQ7CiAgICAgIGlmIChuYW1lTm9kZSkgbmFtZU5vZGUudGV4dENvbnRlbnQgPSBuYW1lOwogICAgICBpZiAoY29weVN0YXR1cykgY29weVN0YXR1cy50ZXh0Q29udGVudCA9ICIiOwoKICAgICAgaWYgKGVtYWlsTGluaykgewogICAgICAgIGlmIChlbWFpbEFkZHJlc3MpIHsKICAgICAgICAgIGNvbnN0IGNsYXNzVmFsdWUgPSAkKCIjY2xhc3NZZWFyIikgPyAkKCIjY2xhc3NZZWFyIikudmFsdWUgOiAiIjsKICAgICAgICAgIGNvbnN0IHN1YmplY3QgPSBjbGFzc1ZhbHVlID8gYFR1aXRpb24gZW5xdWlyeSDigJQgJHtjbGFzc1ZhbHVlfWAgOiAiVHVpdGlvbiBlbnF1aXJ5IjsKICAgICAgICAgIGVtYWlsTGluay5zZXRBdHRyaWJ1dGUoCiAgICAgICAgICAgICJocmVmIiwKICAgICAgICAgICAgYG1haWx0bzoke2VtYWlsQWRkcmVzc30/c3ViamVjdD0ke2VuY29kZVVSSUNvbXBvbmVudChzdWJqZWN0KX0mYm9keT0ke2VuY29kZVVSSUNvbXBvbmVudCh0ZXh0KX1gCiAgICAgICAgICApOwogICAgICAgICAgZW1haWxMaW5rLnJlbW92ZUF0dHJpYnV0ZSgiaGlkZGVuIik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGVtYWlsTGluay5zZXRBdHRyaWJ1dGUoImhpZGRlbiIsICIiKTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIGlmICh3YUxpbmspIHsKICAgICAgICBpZiAod2hhdHNhcHBCYXNlKSB7CiAgICAgICAgICB3YUxpbmsuc2V0QXR0cmlidXRlKCJocmVmIiwgYCR7d2hhdHNhcHBCYXNlfT90ZXh0PSR7ZW5jb2RlVVJJQ29tcG9uZW50KHRleHQpfWApOwogICAgICAgICAgd2FMaW5rLnJlbW92ZUF0dHJpYnV0ZSgiaGlkZGVuIik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHdhTGluay5zZXRBdHRyaWJ1dGUoImhpZGRlbiIsICIiKTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIGZvcm0uaGlkZGVuID0gdHJ1ZTsKICAgICAgaWYgKHJlc3VsdCkgewogICAgICAgIHJlc3VsdC5oaWRkZW4gPSBmYWxzZTsKICAgICAgICB3aW5kb3cucmVxdWVzdEFuaW1hdGlvbkZyYW1lKCgpID0+IHsKICAgICAgICAgIGlmICh0aXRsZSkgdGl0bGUuZm9jdXMoeyBwcmV2ZW50U2Nyb2xsOiBmYWxzZSB9KTsKICAgICAgICB9KTsKICAgICAgfQogICAgfTsKCiAgICBmb3JtLmFkZEV2ZW50TGlzdGVuZXIoInN1Ym1pdCIsIChldmVudCkgPT4gewogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBjbGVhclN1bW1hcnkoKTsKCiAgICAgIGNvbnN0IGZhaWxlZCA9IGZpZWxkcy5maWx0ZXIoKGZpZWxkKSA9PiAhdmFsaWRhdGVGaWVsZChmaWVsZCkpOwogICAgICBpZiAoZmFpbGVkLmxlbmd0aCkgewogICAgICAgIHNob3dTdW1tYXJ5KGZhaWxlZCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBpZiAoc3VibWl0QnRuKSB7CiAgICAgICAgc3VibWl0QnRuLmRpc2FibGVkID0gdHJ1ZTsKICAgICAgICBzdWJtaXRCdG4udGV4dENvbnRlbnQgPSAiUHJlcGFyaW5n4oCmIjsKICAgICAgfQoKICAgICAgd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIGlmIChzdWJtaXRCdG4pIHsKICAgICAgICAgIHN1Ym1pdEJ0bi5kaXNhYmxlZCA9IGZhbHNlOwogICAgICAgICAgc3VibWl0QnRuLnRleHRDb250ZW50ID0gIlNlbmQgZW5xdWlyeSI7CiAgICAgICAgfQogICAgICAgIHNob3dSZXN1bHQoKTsKICAgICAgfSwgcmVkdWNlTW90aW9uLm1hdGNoZXMgPyAwIDogMzIwKTsKICAgIH0pOwoKICAgIGNvbnN0IGNvcHlCdXR0b24gPSAkKCIjY29weUJ0biIpOwogICAgaWYgKGNvcHlCdXR0b24pIHsKICAgICAgY29weUJ1dHRvbi5hZGRFdmVudExpc3RlbmVyKCJjbGljayIsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCB0ZXh0Tm9kZSA9ICQoIiNlbnF1aXJ5VGV4dCIpOwogICAgICAgIGNvbnN0IGNvcHlTdGF0dXMgPSAkKCIjY29weVN0YXR1cyIpOwogICAgICAgIGNvbnN0IHRleHQgPSB0ZXh0Tm9kZSA/IHRleHROb2RlLnRleHRDb250ZW50IDogIiI7CiAgICAgICAgY29uc3QgYW5ub3VuY2UgPSAobWVzc2FnZSkgPT4gewogICAgICAgICAgaWYgKGNvcHlTdGF0dXMpIGNvcHlTdGF0dXMudGV4dENvbnRlbnQgPSBtZXNzYWdlOwogICAgICAgIH07CgogICAgICAgIHRyeSB7CiAgICAgICAgICBpZiAobmF2aWdhdG9yLmNsaXBib2FyZCAmJiBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dCkgewogICAgICAgICAgICBhd2FpdCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dCh0ZXh0KTsKICAgICAgICAgICAgYW5ub3VuY2UoIk1lc3NhZ2UgY29waWVkIOKAlCBwYXN0ZSBpdCB3aGVyZXZlciB5b3UgbGlrZS4iKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgfQogICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJjbGlwYm9hcmQgdW5hdmFpbGFibGUiKTsKICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgY29uc3QgaGVscGVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgidGV4dGFyZWEiKTsKICAgICAgICAgIGhlbHBlci52YWx1ZSA9IHRleHQ7CiAgICAgICAgICBoZWxwZXIuc2V0QXR0cmlidXRlKCJyZWFkb25seSIsICIiKTsKICAgICAgICAgIGhlbHBlci5zdHlsZS5wb3NpdGlvbiA9ICJmaXhlZCI7CiAgICAgICAgICBoZWxwZXIuc3R5bGUudG9wID0gIi0xMDAwcHgiOwogICAgICAgICAgaGVscGVyLnN0eWxlLm9wYWNpdHkgPSAiMCI7CiAgICAgICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGhlbHBlcik7CiAgICAgICAgICBoZWxwZXIuc2VsZWN0KCk7CiAgICAgICAgICBsZXQgY29waWVkID0gZmFsc2U7CiAgICAgICAgICB0cnkgewogICAgICAgICAgICBjb3BpZWQgPSBkb2N1bWVudC5leGVjQ29tbWFuZCgiY29weSIpOwogICAgICAgICAgfSBjYXRjaCAoY29weUVycm9yKSB7CiAgICAgICAgICAgIGNvcGllZCA9IGZhbHNlOwogICAgICAgICAgfQogICAgICAgICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChoZWxwZXIpOwogICAgICAgICAgYW5ub3VuY2UoCiAgICAgICAgICAgIGNvcGllZAogICAgICAgICAgICAgID8gIk1lc3NhZ2UgY29waWVkIOKAlCBwYXN0ZSBpdCB3aGVyZXZlciB5b3UgbGlrZS4iCiAgICAgICAgICAgICAgOiAiQ29weWluZyBpcyBibG9ja2VkIGhlcmUuIFNlbGVjdCB0aGUgbWVzc2FnZSB0ZXh0IGFuZCBjb3B5IGl0IG1hbnVhbGx5LiIKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0KCiAgICBjb25zdCByZXN0YXJ0ID0gJCgiI3Jlc3RhcnRCdG4iKTsKICAgIGlmIChyZXN0YXJ0KSB7CiAgICAgIHJlc3RhcnQuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCAoKSA9PiB7CiAgICAgICAgZm9ybS5yZXNldCgpOwogICAgICAgIGNsZWFyU3VtbWFyeSgpOwogICAgICAgIGZpZWxkcy5mb3JFYWNoKChmaWVsZCkgPT4gewogICAgICAgICAgaWYgKCFmaWVsZC5pbnB1dCkgcmV0dXJuOwogICAgICAgICAgZmllbGQuaW5wdXQucmVtb3ZlQXR0cmlidXRlKCJhcmlhLWludmFsaWQiKTsKICAgICAgICAgIGlmIChmaWVsZC5lcnJvcikgewogICAgICAgICAgICBmaWVsZC5lcnJvci50ZXh0Q29udGVudCA9ICIiOwogICAgICAgICAgICBmaWVsZC5lcnJvci5oaWRkZW4gPSB0cnVlOwogICAgICAgICAgfQogICAgICAgIH0pOwogICAgICAgIGlmIChyZXN1bHQpIHJlc3VsdC5oaWRkZW4gPSB0cnVlOwogICAgICAgIGZvcm0uaGlkZGVuID0gZmFsc2U7CiAgICAgICAgY29uc3QgZmlyc3QgPSAkKCIjZnVsbE5hbWUiKTsKICAgICAgICBpZiAoZmlyc3QpIGZpcnN0LmZvY3VzKHsgcHJldmVudFNjcm9sbDogZmFsc2UgfSk7CiAgICAgIH0pOwogICAgfQogIH0KCiAgLyogcHJvZ3JhbW1lIGVucXVpcnkgcHJlc2V0cyAqLwogICQkKCJbZGF0YS1wcmVzZXRdIikuZm9yRWFjaCgobGluaykgPT4gewogICAgbGluay5hZGRFdmVudExpc3RlbmVyKCJjbGljayIsICgpID0+IHsKICAgICAgY29uc3Qgc2VsZWN0ID0gJCgiI2NsYXNzWWVhciIpOwogICAgICBpZiAoIXNlbGVjdCkgcmV0dXJuOwogICAgICBjb25zdCBwcmVzZXQgPSBsaW5rLmdldEF0dHJpYnV0ZSgiZGF0YS1wcmVzZXQiKSB8fCAiIjsKICAgICAgY29uc3QgbWF0Y2ggPSBBcnJheS5mcm9tKHNlbGVjdC5vcHRpb25zKS5maW5kKChvcHRpb24pID0+IG9wdGlvbi52YWx1ZSA9PT0gcHJlc2V0KTsKICAgICAgaWYgKG1hdGNoKSBzZWxlY3QudmFsdWUgPSBwcmVzZXQ7CiAgICAgIHNlbGVjdC5yZW1vdmVBdHRyaWJ1dGUoImFyaWEtaW52YWxpZCIpOwogICAgICBjb25zdCBlcnJvciA9ICQoIiNjbGFzc1llYXJFcnJvciIpOwogICAgICBpZiAoZXJyb3IpIHsKICAgICAgICBlcnJvci50ZXh0Q29udGVudCA9ICIiOwogICAgICAgIGVycm9yLmhpZGRlbiA9IHRydWU7CiAgICAgIH0KICAgIH0pOwogIH0pOwp9KSgpOwo="></script>
+</head>
+<body data-phone="+91 78118 354632" data-whatsapp="9178118354632" data-email="conceptualgurukul@gmail.com" data-area="West Mambalam, Chennai" data-map="https://www.google.com/maps/search/?api=1&amp;query=West+Mambalam+Chennai">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Conceptual Gurukul, home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 28 28" width="28" height="28">
+          <path d="M3 22c4-.8 6-4.4 8-10S17 3 25 2.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="23" cy="5" r="2.4" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">Conceptual <span>Gurukul</span></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#programmes">Programmes</a>
+      <a href="#approach">What we do</a>
+      <a href="#founders">Founders</a>
+      <a href="#faq">FAQ</a>
+      <a href="#enquiry">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="nav-cta" href="#enquiry">Enquire</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav aria-label="Mobile">
+    <a href="#programmes">Programmes</a>
+    <a href="#approach">What we do</a>
+    <a href="#method">How a topic is taught</a>
+    <a href="#founders">Founders</a>
+    <a href="#faq">FAQ</a>
+    <a href="#enquiry">Contact</a>
+  </nav>
+  <a class="btn btn-light mobile-menu-cta" href="#enquiry">Enquire about classes</a>
+</div>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 1200 460" preserveAspectRatio="xMidYMid meet" focusable="false">
+        <g class="art-grid">
+          <path d="M0 380h1200M0 300h1200M0 220h1200M0 140h1200M0 60h1200"/>
+          <path d="M200 0v460M450 0v460M700 0v460M950 0v460"/>
+        </g>
+        <g class="art-main">
+          <path d="M40 388C250 40 520 40 730 388"/>
+          <path d="M745 388 1010 96"/>
+          <path d="M470 388v-118h150"/>
+          <circle cx="968" cy="252" r="104"/>
+          <path d="M912 196 1030 300M912 300 1030 196"/>
+          <path d="M1160 388V40"/>
+          <path d="M1160 388H60"/>
+        </g>
+        <g class="art-dots">
+          <circle cx="470" cy="270" r="5"/>
+          <circle cx="620" cy="270" r="5"/>
+          <circle cx="730" cy="388" r="5"/>
+          <circle cx="1010" cy="96" r="5"/>
+          <circle cx="1160" cy="40" r="5"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow" data-reveal>West Mambalam · Chennai</p>
+      <h1 data-reveal style="--d:80ms">
+        <span class="hero-line">Understand</span>
+        <span class="hero-line hero-line-dim">the why.</span>
+      </h1>
+      <p class="hero-sub" data-reveal style="--d:160ms">
+        The marks follow. CBSE Maths and Science in West Mambalam, Chennai.
+      </p>
+      <div class="hero-actions" data-reveal style="--d:240ms">
+        <a class="btn btn-light" href="#enquiry">Enquire about classes</a>
+        <a class="btn btn-outline-light" href="#programmes">Explore programmes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="At a glance">
+    <div class="wrap strip-grid">
+      <div class="od-stat strip-item">
+        <span class="strip-value">CBSE</span>
+        <span class="strip-caption">Board syllabus only</span>
+      </div>
+      <div class="od-stat strip-item">
+        <span class="strip-value">9–12</span>
+        <span class="strip-caption">Classes offered</span>
+      </div>
+      <div class="od-stat strip-item">
+        <span class="strip-value">Why before how</span>
+        <span class="strip-caption">Teaching approach</span>
+      </div>
+      <div class="od-stat strip-item">
+        <span class="strip-value">West Mambalam</span>
+        <span class="strip-caption">Chennai, Tamil Nadu</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section programmes" id="programmes">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow-dark">Programmes</p>
+        <h2>CBSE, from class 9<br>to class 12.</h2>
+        <p class="lede">
+          Every chapter begins with the idea behind it, then moves to the questions
+          the board actually asks.
+        </p>
+      </div>
+
+      <div class="programme-grid">
+        <article class="programme-card" data-reveal>
+          <div class="programme-top">
+            <p class="card-eyebrow">Classes 9 &amp; 10</p>
+            <h3>Maths &amp; Science</h3>
+          </div>
+          <p class="programme-copy">
+            Algebra, geometry, physics, chemistry and biology — each chapter starts with the
+            idea, not the answer. Board answers come after understanding, so they hold up
+            when the question changes.
+          </p>
+          <ul class="programme-list">
+            <li>Full CBSE Maths and Science syllabus</li>
+            <li>Chapter concepts rebuilt from the basics</li>
+            <li>Board-style answers and written practice</li>
+          </ul>
+          <a class="programme-link" href="#enquiry" data-preset="Class 10 — Maths &amp; Science">
+            Enquire about 9–10
+            <svg class="od-icon" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:14px">
+              <path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </article>
+
+        <article class="programme-card" data-reveal style="--d:100ms">
+          <div class="programme-top">
+            <p class="card-eyebrow">Classes 11 &amp; 12</p>
+            <h3>Mathematics</h3>
+          </div>
+          <p class="programme-copy">
+            Calculus, vectors, probability, matrices — derived step by step, so an unfamiliar
+            question becomes a familiar problem. Maths only for these two years; Science is
+            not offered at this level.
+          </p>
+          <ul class="programme-list">
+            <li>CBSE Maths, classes 11 and 12</li>
+            <li>Derivations built rather than dictated</li>
+            <li>Board-exam method and presentation</li>
+          </ul>
+          <a class="programme-link" href="#enquiry" data-preset="Class 12 — Maths">
+            Enquire about 11–12
+            <svg class="od-icon" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:14px">
+              <path d="M3 8h9M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section approach" id="approach">
+    <div class="wrap">
+      <div class="approach-head" data-reveal>
+        <p class="eyebrow">The three pillars</p>
+        <h2>Teaching. Counselling.<br>Guidance.</h2>
+        <p class="approach-lede">
+          Conceptual teaching, educational counselling and career guidance — the three things
+          the centre is built on.
+        </p>
+      </div>
+
+      <div class="principle-grid">
+        <div class="principle" data-reveal>
+          <p class="principle-num">01</p>
+          <h3>Conceptual teaching</h3>
+          <p>
+            A chapter begins with the idea behind it. Formulas are rebuilt on the board, then
+            applied to the questions CBSE actually asks.
+          </p>
+        </div>
+        <div class="principle" data-reveal style="--d:80ms">
+          <p class="principle-num">02</p>
+          <h3>Educational counselling</h3>
+          <p>
+            Subject and stream choices, worked through together — where the student is strong,
+            what a choice demands, and where it leads.
+          </p>
+        </div>
+        <div class="principle" data-reveal style="--d:160ms">
+          <p class="principle-num">03</p>
+          <h3>Career guidance</h3>
+          <p>
+            Looking past class 12: which courses and careers fit, and what they ask of a
+            student in subjects and marks.
+          </p>
+        </div>
+      </div>
+
+      <blockquote class="pull-quote" data-reveal>
+        <p>“If you can rebuild the formula, you don’t have to remember it.”</p>
+        <footer>On conceptual teaching</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section method" id="method">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow eyebrow-dark">In class</p>
+        <h2>A chapter, start to finish.</h2>
+        <p class="lede">
+          The same four moves every week, for every topic — whether it is polynomials in
+          class 9 or integration in class 12.
+        </p>
+      </div>
+
+      <ol class="method-list">
+        <li class="method-step" data-reveal>
+          <p class="method-num">01</p>
+          <h3>Concept</h3>
+          <p>Begin with the question the concept exists to answer, in plain language.</p>
+        </li>
+        <li class="method-step" data-reveal style="--d:80ms">
+          <p class="method-num">02</p>
+          <h3>Derivation</h3>
+          <p>Build the formula on the board together, one line at a time.</p>
+        </li>
+        <li class="method-step" data-reveal style="--d:160ms">
+          <p class="method-num">03</p>
+          <h3>Practice</h3>
+          <p>Worked examples first, then variations solved without help.</p>
+        </li>
+        <li class="method-step" data-reveal style="--d:240ms">
+          <p class="method-num">04</p>
+          <h3>Board answers</h3>
+          <p>Write it the way CBSE marks it — steps, notation and the final line.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section founders" id="founders">
+    <div class="wrap">
+      <div class="section-head founders-head" data-reveal>
+        <p class="eyebrow eyebrow-dark">The founders</p>
+        <h2>The people behind the classroom.</h2>
+        <p class="lede">
+          Conceptual Gurukul is founded by Ramakrishnan and Vijayalakshmi — a mathematics
+          postgraduate and a chemical engineering graduate. The centre’s teaching is built on
+          the idea that a subject should be understood before it is memorised.
+        </p>
+      </div>
+
+      <div class="founder-grid">
+        <article class="founder" data-reveal>
+          <div class="founder-top">
+            <span class="founder-mark" aria-hidden="true">R</span>
+            <span class="founder-label">Founder</span>
+          </div>
+          <h3 class="founder-name">Ramakrishnan</h3>
+          <ul class="founder-credentials">
+            <li>M.Sc. Mathematics</li>
+            <li>M.S. Psychology (student)</li>
+          </ul>
+        </article>
+
+        <article class="founder" data-reveal style="--d:100ms">
+          <div class="founder-top">
+            <span class="founder-mark" aria-hidden="true">V</span>
+            <span class="founder-label">Founder</span>
+          </div>
+          <h3 class="founder-name">Vijayalakshmi</h3>
+          <ul class="founder-credentials">
+            <li>B.Tech. Chemical Engineering</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="faq-head" data-reveal>
+        <p class="eyebrow eyebrow-dark">FAQ</p>
+        <h2>Questions parents ask.</h2>
+      </div>
+
+      <div class="faq-list" data-reveal>
+        <details class="faq-item">
+          <summary>
+            <span>Which classes and subjects are taught?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Classes 9 and 10: CBSE Maths and Science. Classes 11 and 12: CBSE Maths only.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Is this only for CBSE students?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>Yes. Teaching follows the CBSE syllabus and the way CBSE marks answers.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Is Science taught for classes 11 and 12?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>No. For classes 11 and 12, only Mathematics is taught.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Do you offer counselling and career guidance?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>
+              Yes. Alongside tuition, the centre offers educational counselling on subjects and
+              streams, and career guidance for what comes after class 12. Mention it in your
+              enquiry and you’ll get the details that apply.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Where exactly is the centre?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>
+              In West Mambalam, Chennai. The exact address and directions are shared when you
+              enquire, so you can check the route before visiting.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>What are the timings and fees?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>
+              Current timings and fees are shared on enquiry. Mention the class and a preferred
+              slot, and you’ll get the details that apply to that batch.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>How do I join a batch?</span>
+            <span class="faq-plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">
+            <p>
+              Use the enquiry form or call. Mention the class and a preferred time, and you’ll
+              get the current batch schedule and how to join.
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="place" aria-labelledby="placeTitle">
+    <div class="wrap place-inner">
+      <div class="place-copy" data-reveal>
+        <p class="eyebrow">The centre</p>
+        <h2 id="placeTitle">West Mambalam,<br>Chennai.</h2>
+        <p>
+          A neighbourhood tuition centre in central Chennai, teaching CBSE students from
+          class 9 to class 12. Visit after a short enquiry — the address is shared first,
+          along with timings.
+        </p>
+      </div>
+      <div class="place-card" data-reveal style="--d:100ms">
+        <p class="place-label">Location</p>
+        <p class="place-value">West Mambalam<br>Chennai, Tamil Nadu</p>
+        <p class="place-note">Exact address shared on enquiry</p>
+        <a class="btn btn-outline-light" id="mapLink" href="https://www.google.com/maps/search/?api=1&amp;query=West+Mambalam+Chennai" target="_blank" rel="noopener">
+          View area on Maps
+          <svg class="od-icon" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:14px">
+            <path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section enquiry" id="enquiry">
+    <div class="wrap enquiry-inner">
+      <div class="enquiry-intro" data-reveal>
+        <p class="eyebrow eyebrow-dark">Enquire</p>
+        <h2>Tell us the class.<br>We’ll take it from there.</h2>
+        <p class="lede">
+          Tell us the class and what you’re looking for — tuition, educational counselling or
+          career guidance — and you’ll get the timings, fees and next steps that apply.
+        </p>
+
+        <div class="contact-direct">
+          <a class="contact-link" id="phoneLink" href="tel:+9178118354632">
+            <span class="contact-label">Call</span>
+            <span class="contact-value" data-phone-text>+91 78118 354632</span>
+          </a>
+          <a class="contact-link" id="whatsappLink" href="https://wa.me/9178118354632" target="_blank" rel="noopener">
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-value">Message the centre</span>
+          </a>
+          <a class="contact-link" id="emailLink" href="mailto:conceptualgurukul@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">conceptualgurukul@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="enquiry-panel" data-reveal style="--d:100ms">
+        <form class="enquiry-form" id="enquiryForm" novalidate>
+          <div class="form-summary" id="formSummary" role="alert" tabindex="-1" hidden>
+            <p class="form-summary-title">Please check these details</p>
+            <ul id="formSummaryList"></ul>
+          </div>
+
+          <div class="field">
+            <label for="fullName">Student or parent name</label>
+            <input id="fullName" name="fullName" type="text" autocomplete="name" aria-describedby="fullNameError" required>
+            <p class="field-error" id="fullNameError" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" aria-describedby="phoneError" required>
+            <p class="field-error" id="phoneError" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="classYear">Class</label>
+            <div class="select-wrap">
+              <select id="classYear" name="classYear" aria-describedby="classYearError" required>
+                <option value="">Choose a class</option>
+                <option value="Class 9 — Maths &amp; Science">Class 9 — Maths &amp; Science</option>
+                <option value="Class 10 — Maths &amp; Science">Class 10 — Maths &amp; Science</option>
+                <option value="Class 11 — Maths">Class 11 — Maths</option>
+                <option value="Class 12 — Maths">Class 12 — Maths</option>
+              </select>
+              <svg class="od-icon select-chevron" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:16px">
+                <path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <p class="field-error" id="classYearError" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="slot">Preferred time</label>
+            <div class="select-wrap">
+              <select id="slot" name="slot" aria-describedby="slotError" required>
+                <option value="">Choose a time</option>
+                <option value="Weekday evenings">Weekday evenings</option>
+                <option value="Weekend mornings">Weekend mornings</option>
+                <option value="Weekend afternoons">Weekend afternoons</option>
+                <option value="Not sure yet">Not sure yet — suggest a slot</option>
+              </select>
+              <svg class="od-icon select-chevron" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:16px">
+                <path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <p class="field-error" id="slotError" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Anything we should know? <span class="optional">(optional)</span></label>
+            <textarea id="message" name="message" rows="3" maxlength="400" aria-describedby="messageError"></textarea>
+            <p class="field-error" id="messageError" hidden></p>
+          </div>
+
+          <button class="btn btn-primary form-submit" id="submitBtn" type="submit">Send enquiry</button>
+          <p class="form-note">
+            Prefer to talk? Call <a href="tel:+9178118354632" data-phone-link data-phone-text>+91 78118 354632</a>.
+          </p>
+        </form>
+
+        <div class="enquiry-result" id="enquiryResult" role="status" tabindex="-1" hidden>
+          <h3 id="resultTitle" tabindex="-1">Enquiry ready<span class="result-name" id="resultName"></span></h3>
+          <p class="result-copy">
+            Nothing has been sent automatically. Send this message on WhatsApp or email, copy it,
+            or call the centre.
+          </p>
+          <div class="result-message"><p id="enquiryText"></p></div>
+          <div class="result-actions">
+            <a class="btn btn-primary" id="resultWhatsapp" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
+            <a class="btn btn-ghost" id="resultEmail" href="#">Email enquiry</a>
+            <button class="btn btn-ghost" id="copyBtn" type="button">Copy message</button>
+            <a class="btn btn-ghost" id="resultCall" href="tel:+9178118354632">Call the centre</a>
+          </div>
+          <p class="result-note" id="copyStatus" role="status" aria-live="polite"></p>
+          <button class="link-btn" id="restartBtn" type="button">Write another enquiry</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <p class="brand-text footer-name">Conceptual <span>Gurukul</span></p>
+      <p class="footer-tagline">CBSE tuition, counselling and career guidance.<br>West Mambalam, Chennai.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Programmes">
+      <p class="footer-label">Programmes</p>
+      <a href="#programmes">Classes 9 &amp; 10</a>
+      <a href="#programmes">Classes 11 &amp; 12</a>
+      <a href="#method">How a topic is taught</a>
+    </nav>
+    <nav class="footer-nav" aria-label="The centre">
+      <p class="footer-label">The centre</p>
+      <a href="#approach">What we do</a>
+      <a href="#founders">Founders</a>
+      <a href="#faq">FAQ</a>
+      <a href="#enquiry">Enquiry</a>
+    </nav>
+    <div class="footer-nav">
+      <p class="footer-label">Contact</p>
+      <a href="tel:+9178118354632" data-phone-link data-phone-text>+91 78118 354632</a>
+      <a id="footerWhatsapp" href="https://wa.me/9178118354632" target="_blank" rel="noopener">WhatsApp</a>
+      <a id="footerEmail" href="mailto:conceptualgurukul@gmail.com">Email us</a>
+      <p class="footer-area">West Mambalam, Chennai</p>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>© <span id="year">2026</span> Conceptual Gurukul</p>
+    <p>CBSE tuition · Counselling · Career guidance</p>
+  </div>
+</footer>
+
+</body>
+</html>
