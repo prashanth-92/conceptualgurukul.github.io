@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head><script type="application/json" data-od-external-dependencies>["https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"]</script>
+<head><script type="application/json" data-od-external-dependencies>["https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap","https://www.google.com/maps?q=13.039900,80.226181&hl=en&z=16&output=embed"]</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Conceptual Gurukul — CBSE Maths &amp; Science tuition, West Mambalam, Chennai</title>
@@ -1129,6 +1129,77 @@ h3 {
   color: #9aa0ad;
 }
 
+.place-card-map {
+  padding: clamp(18px, 2.4vw, 26px);
+}
+
+.map-head {
+  display: grid;
+  gap: 6px;
+  margin-bottom: var(--s4);
+}
+
+.map-head .place-value {
+  margin-top: 0;
+}
+
+.map-frame {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  background: #14161b;
+}
+
+.map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.map-hours {
+  margin-top: var(--s4);
+  padding-top: var(--s4);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.map-hours .place-label {
+  margin-bottom: 10px;
+}
+
+.hours {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.hours-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+}
+
+.hours dt {
+  font-size: 0.88rem;
+  color: #9aa0ad;
+}
+
+.hours dd {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.place-card-map .btn {
+  width: 100%;
+  margin-top: var(--s4);
+}
+
 .place-card .btn {
   width: 100%;
 }
@@ -2023,8 +2094,8 @@ h3 {
           </summary>
           <div class="faq-body">
             <p>
-              Current timings and fees are shared on enquiry. Mention the class and a preferred
-              slot, and you’ll get the details that apply to that batch.
+              The centre is open Monday to Saturday, 5–7 PM, and Sunday, 9 AM to 12 PM. Fees and
+              the batch details for your class are shared on enquiry.
             </p>
           </div>
         </details>
@@ -2052,14 +2123,35 @@ h3 {
         <h2 id="placeTitle">West Mambalam,<br>Chennai.</h2>
         <p>
           A neighbourhood tuition centre in central Chennai, teaching CBSE students from
-          class 9 to class 12. Use the map link for directions, and ask in your enquiry
-          for timings.
+          class 9 to class 12. Use the map for directions, and get in touch for batch details.
         </p>
       </div>
-      <div class="place-card" data-reveal style="--d:100ms">
-        <p class="place-label">Location</p>
-        <p class="place-value">West Mambalam<br>Chennai, Tamil Nadu</p>
-        <p class="place-note">Directions open in Google Maps</p>
+      <div class="place-card place-card-map" data-reveal style="--d:100ms">
+        <div class="map-head">
+          <p class="place-label">Location</p>
+          <p class="place-value">West Mambalam, Chennai</p>
+        </div>
+        <div class="map-frame">
+          <iframe
+            src="https://www.google.com/maps?q=13.039900,80.226181&amp;hl=en&amp;z=16&amp;output=embed"
+            title="Map showing the centre in West Mambalam, Chennai"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+        <div class="map-hours">
+          <p class="place-label">Opening hours</p>
+          <dl class="hours">
+            <div class="hours-row">
+              <dt>Mon – Sat</dt>
+              <dd>5 – 7 PM</dd>
+            </div>
+            <div class="hours-row">
+              <dt>Sunday</dt>
+              <dd>9 AM – 12 PM</dd>
+            </div>
+          </dl>
+        </div>
         <a class="btn btn-outline-light" id="mapLink" href="https://maps.app.goo.gl/rNKH8AmyGvXsAMor7" target="_blank" rel="noopener">
           Open in Google Maps
           <svg class="od-icon" viewBox="0 0 16 16" aria-hidden="true" style="--od-icon-size:14px">
